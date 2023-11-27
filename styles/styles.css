@@ -13,6 +13,7 @@ Table of Contents:
 /*KLEUREN:_- grijs #899CA0 en donkergroen #1C2B32 */
 
 
+
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
@@ -92,9 +93,50 @@ header form input {
 
 
 /*///////////// 3.2 Testimonial /////////////*/
+
 .section-testimonials h2{
     width: 50%;
-    margin: 0 auto;
+    margin: 20px auto;
+}
+
+
+#quotifull-first {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+#quotifull-second {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.section-testimonials img {
+    height: 44px;
+    width: 44px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.testimonial-first {
+    /*border: 1px solid red;*/
+    position: relative;
+    width: 75%;
+    margin: 50px auto;
+    padding: 75px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #899CA0;
+}
+
+.testimonial-second {
+    /*border: 1px solid red;*/
+    position: relative;
+    width: 75%;
+    margin: 50px auto;
+    padding: 75px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #899CA0;
 }
 
 
@@ -112,13 +154,15 @@ header form input {
 
 .section-support p {
     margin-left: 100px;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .section-support button {
     background-color: #1C2B32;
     color: white;
     padding: 20px;
-    margin: auto 100px;
+    margin: auto 90px;
     border-radius: 20px
 }
 
